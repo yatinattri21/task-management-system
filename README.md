@@ -31,3 +31,29 @@ A simple and clean RESTful API built with **FastAPI** that supports **user regis
 ```bash
 git clone https://github.com/yourusername/taskapi.git
 cd taskapi
+```
+
+### 2. Create and activate virtual environment
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the FastAPI server
+```bash
+uvicorn main:app --reload
+```
+
+###4. Open browser and visit
+```bash
+http://127.0.0.1:8000/docs
+```
+
+
+
+
